@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Centered within 66dp safe zone (21 to 87 in 108dp coordinate system) -->
+    <!-- Heart & Dumbbell / Blossom Silhouette for Women's Fitness -->
+    <!-- Soft drop shadow -->
+    <path
+        android:pathData="M54,26 C64,26 73,34 73,45 C73,58 58,69 54,74 C50,69 35,58 35,45 C35,34 44,26 54,26 Z"
+        android:fillColor="#22AD1457" />
+
+    <!-- Main Gradient Heart Contour -->
+    <path
+        android:pathData="M54,25 C63.5,25 72,32.5 72,44 C72,56.5 57.5,67.5 54,72 C50.5,67.5 36,56.5 36,44 C36,32.5 44.5,25 54,25 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="36"
+                android:startY="25"
+                android:endX="72"
+                android:endY="72"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#EC407A" />
+                <item android:offset="0.5" android:color="#D81B60" />
+                <item android:offset="1.0" android:color="#AB47BC" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Stylized Dumbbell & Sparkle Overlay in Pure White & Soft Gold -->
+    <!-- Dumbbell Bar -->
+    <path
+        android:pathData="M43,48 L65,48"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    
+    <!-- Dumbbell Left Weight Plate -->
+    <path
+        android:pathData="M41,43 L41,53"
+        android:strokeWidth="4"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M37,45 L37,51"
+        android:strokeWidth="3"
+        android:strokeColor="#FFE082"
+        android:strokeLineCap="round" />
+
+    <!-- Dumbbell Right Weight Plate -->
+    <path
+        android:pathData="M67,43 L67,53"
+        android:strokeWidth="4"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M71,45 L71,51"
+        android:strokeWidth="3"
+        android:strokeColor="#FFE082"
+        android:strokeLineCap="round" />
+
+    <!-- Cute Sparkle Stars -->
+    <!-- Top-Right Sparkle -->
+    <path
+        android:pathData="M74,32 C74,35 77,35 77,35 C77,35 74,35 74,38 C74,35 71,35 71,35 C71,35 74,35 74,32 Z"
+        android:fillColor="#FFF9C4" />
+    <!-- Bottom-Left Sparkle -->
+    <path
+        android:pathData="M33,58 C33,60.5 35.5,60.5 35.5,60.5 C35.5,60.5 33,60.5 33,63 C33,60.5 30.5,60.5 30.5,60.5 C30.5,60.5 33,60.5 33,58 Z"
+        android:fillColor="#FFF9C4" />
+</vector>

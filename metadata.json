@@ -1,0 +1,6 @@
+{
+  "name": "GlowFit",
+  "description": "Aesthetic workout companion for women and girls featuring personalized routines, progress tracking, mood logger, streaks & badges, and social community.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

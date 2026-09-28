@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+  <path
+      android:pathData="M60,10 C32.386,10 10,32.386 10,60 C10,87.614 32.386,110 60,110 C87.614,110 110,87.614 110,60 C110,32.386 87.614,10 60,10 Z">
+    <aapt:attr name="android:fillColor">
+      <gradient
+          android:startX="10"
+          android:startY="10"
+          android:endX="110"
+          android:endY="110"
+          android:type="linear">
+        <item android:offset="0.0" android:color="#FFFF8FA3" />
+        <item android:offset="1.0" android:color="#FFFF4081" />
+      </gradient>
+    </aapt:attr>
+  </path>
+  <!-- Crown / Trophy detail -->
+  <path
+      android:pathData="M38,78 L82,78 L80,84 L40,84 Z"
+      android:fillColor="#FFFFFFFF" />
+  <path
+      android:pathData="M42,42 L50,68 L70,68 L78,42 L67,54 L60,34 L53,54 Z"
+      android:fillColor="#FFFFFFFF" />
+  <!-- Sparkles -->
+  <path
+      android:pathData="M60,20 L62,26 L68,28 L62,30 L60,36 L58,30 L52,28 L58,26 Z"
+      android:fillColor="#FFFFE082" />
+  <path
+      android:pathData="M28,45 L29.5,49.5 L34,51 L29.5,52.5 L28,57 L26.5,52.5 L22,51 L26.5,49.5 Z"
+      android:fillColor="#FFFFE082" />
+  <path
+      android:pathData="M92,45 L93.5,49.5 L98,51 L93.5,52.5 L92,57 L90.5,52.5 L86,51 L90.5,49.5 Z"
+      android:fillColor="#FFFFE082" />
+</vector>

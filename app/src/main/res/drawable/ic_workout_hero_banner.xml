@@ -1,0 +1,65 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="360dp"
+    android:height="180dp"
+    android:viewportWidth="360"
+    android:viewportHeight="180">
+  <!-- Soft Background Gradient -->
+  <path
+      android:pathData="M0,0 L360,0 L360,180 L0,180 Z">
+    <aapt:attr name="android:fillColor">
+      <gradient
+          android:startX="0"
+          android:startY="0"
+          android:endX="360"
+          android:endY="180"
+          android:type="linear">
+        <item android:offset="0.0" android:color="#FFFFD6E0" />
+        <item android:offset="0.5" android:color="#FFF3E5F5" />
+        <item android:offset="1.0" android:color="#FFFFEEF2" />
+      </gradient>
+    </aapt:attr>
+  </path>
+  <!-- Decorative Soft Pastel Waves -->
+  <path
+      android:pathData="M0,120 C80,100 160,150 240,110 C300,80 340,100 360,90 L360,180 L0,180 Z"
+      android:fillColor="#33FF4081" />
+  <path
+      android:pathData="M0,140 C100,120 180,170 280,130 C320,110 350,130 360,125 L360,180 L0,180 Z"
+      android:fillColor="#33AB47BC" />
+  
+  <!-- Yoga Mat on floor -->
+  <path
+      android:pathData="M70,145 L290,145 C295,145 298,147 298,150 C298,153 295,155 290,155 L70,155 C65,155 62,153 62,150 C62,147 65,145 70,145 Z"
+      android:fillColor="#80FF8FA3" />
+
+  <!-- Central Heart Symbol with Glow -->
+  <path
+      android:pathData="M180,75 C180,75 160,50 142,50 C128,50 118,61 118,75 C118,95 145,115 180,135 C215,115 242,95 242,75 C242,61 232,50 218,50 C200,50 180,75 180,75 Z">
+    <aapt:attr name="android:fillColor">
+      <gradient
+          android:startX="120"
+          android:startY="50"
+          android:endX="240"
+          android:endY="135"
+          android:type="linear">
+        <item android:offset="0.0" android:color="#FFFF8FA3" />
+        <item android:offset="1.0" android:color="#FFFF4081" />
+      </gradient>
+    </aapt:attr>
+  </path>
+  
+  <!-- Sparkles -->
+  <path
+      android:pathData="M95,45 L97,51 L103,53 L97,55 L95,61 L93,55 L87,53 L93,51 Z"
+      android:fillColor="#FFFFB74D" />
+  <path
+      android:pathData="M265,40 L267,46 L273,48 L267,50 L265,56 L263,50 L257,48 L263,46 Z"
+      android:fillColor="#FFFFB74D" />
+  <path
+      android:pathData="M50,85 L51.5,89.5 L56,91 L51.5,92.5 L50,97 L48.5,92.5 L44,91 L48.5,89.5 Z"
+      android:fillColor="#FFFFB74D" />
+  <path
+      android:pathData="M310,80 L311.5,84.5 L316,86 L311.5,87.5 L310,92 L308.5,87.5 L304,86 L308.5,84.5 Z"
+      android:fillColor="#FFFFB74D" />
+</vector>
